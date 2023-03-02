@@ -28,6 +28,7 @@ def run_echo_server():
         user="root",
     )
 
+
 @pytest.fixture(scope="module")
 def started_cluster():
     try:
